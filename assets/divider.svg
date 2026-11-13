@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 24" width="1280" height="24" role="presentation" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#C6FF00" stop-opacity="0"/><stop offset=".5" stop-color="#C6FF00"/><stop offset="1" stop-color="#C6FF00" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>.p{animation:p 2.4s steps(1) infinite}.p2{animation-delay:.6s}.p3{animation-delay:1.2s}@keyframes p{0%,100%{opacity:1}50%{opacity:.25}}@media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+  <rect x="0" y="11" width="1280" height="2" fill="url(#l)"/>
+  <rect class="p" x="604" y="4" width="16" height="16" rx="3" fill="#6E11DF"/>
+  <rect class="p p2" x="632" y="4" width="16" height="16" rx="3" fill="#C6FF00"/>
+  <rect class="p p3" x="660" y="4" width="16" height="16" rx="3" fill="#863bff"/>
+</svg>

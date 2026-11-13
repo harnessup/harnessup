@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas (Discussions)
+    url: https://github.com/harnessup/harnessup/discussions
+    about: Usage questions and loose ideas fit better in Discussions.
+  - name: Report a vulnerability
+    url: https://github.com/harnessup/harnessup/security/policy
+    about: Do not open a public issue. Follow the security policy.

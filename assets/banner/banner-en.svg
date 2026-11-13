@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" width="1280" height="480" role="img" aria-label="HarnessUp — Your Claude Code and Codex lasting up to 3x longer.">
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#C6FF00" fill-opacity=".12"/></pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#863bff" stop-opacity=".75"/><stop offset=".55" stop-color="#6E11DF" stop-opacity=".25"/><stop offset="1" stop-color="#6E11DF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C6FF00" stop-opacity="0"/><stop offset=".5" stop-color="#C6FF00" stop-opacity=".10"/><stop offset="1" stop-color="#C6FF00" stop-opacity="0"/></linearGradient>
+    <clipPath id="frame"><rect width="1280" height="480" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .tag{font:800 46px 'Cabinet Grotesk','Segoe UI',system-ui,-apple-system,'Hiragino Sans','Noto Sans CJK JP','Noto Sans',sans-serif;fill:#fff;letter-spacing:-.5px}
+    .big{font:800 30px 'Martian Mono',ui-monospace,'SFMono-Regular',Consolas,monospace;fill:#0E0E0E}
+    .small{font:600 15px 'Segoe UI',system-ui,-apple-system,'Noto Sans',sans-serif;fill:#0E0E0E}
+    .agents{font:600 17px ui-monospace,'SFMono-Regular',Consolas,monospace;fill:#C6FF00;letter-spacing:1px}
+    .hup-arm{fill:none;stroke:#0E0E0E;stroke-width:9;stroke-linecap:round}.hup-hand{fill:#fff;stroke:#0E0E0E;stroke-width:4}
+    .hup-eyes{transform-box:fill-box;transform-origin:center;animation:blink 4.2s infinite}
+    .hup-coin{transform-box:fill-box;transform-origin:center;animation:coin 2.4s ease-in-out infinite}
+    .bob{animation:bob 3.2s ease-in-out infinite}
+    .scan{animation:scan 7s linear infinite}
+    .glow{animation:pulse 5s ease-in-out infinite;transform-origin:1040px 250px}
+    .chip{animation:pop .8s cubic-bezier(.2,.9,.3,1.3) both}.c1{animation-delay:.12s}.c2{animation-delay:.24s}.c3{animation-delay:.36s}
+    @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+    @keyframes coin{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(-10deg)}}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes scan{from{transform:translateY(-200px)}to{transform:translateY(520px)}}
+    @keyframes pulse{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+    @keyframes pop{from{opacity:0;transform:translateY(14px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="480" fill="#0E0E0E"/>
+    <rect width="1280" height="480" fill="url(#dots)"/>
+    <circle class="glow" cx="1040" cy="250" r="270" fill="url(#glow)"/>
+    <rect class="scan" x="0" y="0" width="1280" height="160" fill="url(#scan)"/>
+    <rect x="0" y="472" width="1280" height="8" fill="#C6FF00"/>
+  </g>
+  <svg x="64" y="48" width="420" height="70.5" viewBox="0 0 297.74 50"><svg width="48" height="48" viewBox="0 0 512 512"><rect x="15.36" y="15.36" width="481.28" height="481.28" rx="112.64" fill="#863bff"/><path fill="#fff" transform="translate(90.3826 97.28) scale(6.9009)" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z"/></svg><svg x="60" y="5" width="237.74" height="45" viewBox="6 6 1194 226"><g fill-rule="evenodd" transform="translate(40 8) skewX(-10)"><path fill="#ffffff" d="M0 36L16 20L36 20L36 84L104 84L104 20L140 20L140 164L124 180L104 180L104 116L36 116L36 180L0 180Z"/><path fill="#ffffff" d="M156 84L172 68L274 68L274 164L258 180L156 180L156 130L172 114L238 114L238 96L156 96ZM192 138L238 138L238 154L192 154Z"/><path fill="#ffffff" d="M290 84L306 68L374 68L374 92L366 100L326 100L326 180L290 180Z"/><path fill="#ffffff" d="M390 84L406 68L504 68L504 164L488 180L468 180L468 100L426 100L426 180L390 180Z"/><path fill="#ffffff" d="M520 84L536 68L634 68L634 132L556 132L556 150L634 150L634 164L618 180L520 180ZM556 94L598 94L598 112L556 112Z"/><path fill="#ffffff" d="M650 84L666 68L758 68L758 94L686 94L686 111L758 111L758 164L742 180L650 180L650 154L722 154L722 137L650 137Z"/><path fill="#ffffff" d="M774 84L790 68L882 68L882 94L810 94L810 111L882 111L882 164L866 180L774 180L774 154L846 154L846 137L774 137Z"/><path fill="#863bff" d="M898 36L914 20L934 20L934 144L1000 144L1000 36L1036 0L1036 164L1020 180L898 180Z"/><path fill="#863bff" d="M1052 84L1068 68L1168 68L1168 164L1152 180L1088 180L1088 206L1072 222L1052 222ZM1088 100L1132 100L1132 148L1088 148Z"/></g></svg></svg>
+  <text x="64" y="214" text-anchor="start" class="tag">Your Claude Code and Codex</text>
+  <text x="64" y="268" text-anchor="start" class="tag">lasting up to <tspan fill="#C6FF00">3x</tspan> longer.</text>
+  <g transform="translate(0 316)">
+  <g class="chip c0" transform="translate(64 0)">
+    <rect x="0" y="8" width="176" height="92" rx="16" fill="#8DB800" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="0" y="0" width="176" height="88" rx="16" fill="#C6FF00" stroke="#0E0E0E" stroke-width="3"/>
+    <text x="88" y="44" text-anchor="middle" class="big">132+</text>
+    <text x="88" y="70" text-anchor="middle" class="small">local tools</text>
+  </g>
+  <g class="chip c1" transform="translate(256 0)">
+    <rect x="0" y="8" width="176" height="92" rx="16" fill="#8DB800" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="0" y="0" width="176" height="88" rx="16" fill="#C6FF00" stroke="#0E0E0E" stroke-width="3"/>
+    <text x="88" y="44" text-anchor="middle" class="big">≤78%</text>
+    <text x="88" y="70" text-anchor="middle" class="small">tokens saved</text>
+  </g>
+  <g class="chip c2" transform="translate(448 0)">
+    <rect x="0" y="8" width="176" height="92" rx="16" fill="#8DB800" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="0" y="0" width="176" height="88" rx="16" fill="#C6FF00" stroke="#0E0E0E" stroke-width="3"/>
+    <text x="88" y="44" text-anchor="middle" class="big">&lt;50ms</text>
+    <text x="88" y="70" text-anchor="middle" class="small">p95 per hook</text>
+  </g>
+  <g class="chip c3" transform="translate(640 0)">
+    <rect x="0" y="8" width="176" height="92" rx="16" fill="#8DB800" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="0" y="0" width="176" height="88" rx="16" fill="#C6FF00" stroke="#0E0E0E" stroke-width="3"/>
+    <text x="88" y="44" text-anchor="middle" class="big">100%</text>
+    <text x="88" y="70" text-anchor="middle" class="small">on your machine</text>
+  </g>
+  </g>
+  <g class="bob"><svg x="880" y="58" width="360" height="328" viewBox="-30 -6 270 246">
+  <ellipse cx="100" cy="230" rx="62" ry="8" fill="rgba(14,14,14,.16)"/>
+  <path d="M164 172c26 4 32 30 14 40-12 6-8 18 8 20" fill="none" stroke="#0E0E0E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="180" y="226" width="16" height="10" rx="2" fill="#0E0E0E"/>
+  <g class="hup-legs">
+    <rect x="72" y="176" width="17" height="40" rx="8" fill="#0E0E0E"/>
+    <rect x="111" y="176" width="17" height="40" rx="8" fill="#0E0E0E"/>
+    <rect x="58" y="208" width="36" height="17" rx="8.5" fill="#6E11DF" stroke="#0E0E0E" stroke-width="4"/>
+    <rect x="106" y="208" width="36" height="17" rx="8.5" fill="#6E11DF" stroke="#0E0E0E" stroke-width="4"/>
+  </g>
+  <g class="hup-body">
+    <rect x="34" y="54" width="132" height="134" rx="28" fill="#8DB800" stroke="#0E0E0E" stroke-width="4"/>
+    <rect x="44" y="58" width="112" height="114" rx="21" fill="#C6FF00" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="48" y="62" width="10" height="92" fill="#6E11DF" stroke="#0E0E0E" stroke-width="2.5"/>
+    <rect x="142" y="62" width="10" height="92" fill="#6E11DF" stroke="#0E0E0E" stroke-width="2.5"/>
+    <rect x="62" y="78" width="76" height="54" rx="12" fill="#0E0E0E"/>
+    <g class="hup-eyes" fill="#C6FF00">
+      <rect x="78" y="94" width="12" height="15"/><rect x="110" y="94" width="12" height="15"/>
+      <rect x="80" y="96" width="4" height="4" fill="#fff"/><rect x="112" y="96" width="4" height="4" fill="#fff"/>
+    </g>
+    <g fill="#C6FF00"><rect x="90" y="116" width="4" height="4"/><rect x="94" y="120" width="12" height="4"/><rect x="106" y="116" width="4" height="4"/></g>
+    <rect x="68" y="116" width="8" height="4" fill="#6E11DF"/><rect x="124" y="116" width="8" height="4" fill="#6E11DF"/>
+    <rect x="36" y="146" width="128" height="15" rx="3" fill="#6E11DF" stroke="#0E0E0E" stroke-width="3"/>
+    <rect x="88" y="140" width="24" height="26" rx="6" fill="#0E0E0E"/>
+    <path d="M94 156l6-6 6 6" fill="none" stroke="#C6FF00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+  </g>
+  <g class="hup-arms">
+    <path d="M40 120c-16 10-18 30-12 40" class="hup-arm"/><circle cx="28" cy="163" r="11" class="hup-hand"/>
+    <path d="M160 112c22-12 26-36 20-54" class="hup-arm"/>
+    <g class="hup-coin">
+      <circle cx="182" cy="28" r="22" fill="#6E11DF" stroke="#0E0E0E" stroke-width="4"/>
+      <circle cx="182" cy="28" r="14" fill="none" stroke="#C6FF00" stroke-width="3"/>
+      <path d="M175 20h14v4h-5v14h-4V24h-5z" fill="#C6FF00"/>
+    </g>
+    <circle cx="180" cy="56" r="11" class="hup-hand"/></g>
+</svg></g>
+  <text x="1060" y="440" text-anchor="middle" class="agents">CLAUDE CODE · CODEX</text>
+</svg>
